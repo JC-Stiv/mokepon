@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body {
+    font-family: 'Pangolin', cursive;
+    background-color: #F5E8C7;
+}
+
+#seleccionar-mascota {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.titulo {
+    color:rgb(241, 186, 6); 
+    font-size: 50px;
+}
+
+
+.subtitulo {
+    font-size: 24px;
+
+}
+.tarjeta { 
+    display: flex;
+
+}
+.tarjeta-de-CHARIZAR {
+ 
+    width: 190px;
+    height:110px;
+    background: #F87474;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 20px; 
+    margin: 10px;  
+    align-items: center;   
+}
+.tarjeta-de-CHARIZAR img {
+    width: 110px;
+}
+
+.tarjeta-de-BLASTOISE {
+
+    width: 200px;
+    height: 110px;
+    background: #3AB0FF;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;  
+    border-radius: 20px;
+    margin: 10px;  
+    align-items: center;
+}
+
+.tarjeta-de-BLASTOISE img {
+    width: 110px;
+}
+
+.tarjeta-de-PIDGEY {
+
+    width: 180px;
+    height: 110px;
+    background: #F9F2ED;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 20px;
+    margin: 10px;  
+    align-items: center;      
+}
+
+.tarjeta-de-PIDGEY img {
+    width: 110px;
+}
+
+.tarjeta-de-ONIX {
+
+    width: 170px;
+    height: 110px;
+    background: #FFB562;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 20px;
+    margin: 10px;  
+    align-items: center;
+}
+
+.tarjeta-de-ONIX img {
+    width: 110px;
+}
+
+#boton-mascota {
+    width: 200px;
+    height: 27px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid sandybrown;
+    color: black;
+    font-family: 'Pangolin', cursive;
+    
+}
+
+#boton-Reiniciar {
+    width: 69px;
+    height: 27px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: lightgray;
+    border: 2px solid sandybrown;
+    color: black;
+    font-family: 'Pangolin', cursive;
+}
+input {
+    display: none;
+}

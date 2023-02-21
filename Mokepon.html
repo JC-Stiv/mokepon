@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8" />
+        <title>Moquepon</title> 
+        <script src="./mokepon.js"></script>
+        <link rel="stylesheet" href="./Styles.css">
+        
+    </head>
+    <body>
+
+        <section id="seleccionar-mascota">
+            <h1 class="titulo">  Mokepon </h1>
+
+            <h2 class="subtitulo">Elige tu mascota</h2>
+
+            <div class="tarjeta">
+                <label class = "tarjeta-de-CHARIZAR"for="CHARIZAR">
+                    <p>CHARIZAR</p>
+                    <img src="./assets/charizar.png" alt="CHARIZAR">
+                </label>
+                    <input type="radio" name="mascota" id="CHARIZAR"/>
+
+                <label class = "tarjeta-de-BLASTOISE"for="BLASTOISE">
+                    <p>BLASTOISE</p>    
+                    <img src="./assets/blatois.png" alt="BLASTOISE">
+                </label>
+                    <input type="radio" name="mascota" id="BLASTOISE"/>
+
+                <label class = "tarjeta-de-PIDGEY"for="PIDGEY">
+                    <p>PIDGEY</p>
+                    <img src="./assets/pidgey.png" alt="PIDGEY">
+                </label>
+                    <input type="radio" name="mascota" id="PIDGEY"/>
+
+                <label class = "tarjeta-de-ONIX"for="ONIX">
+                    <p>ONIX</p>
+                    <img src="./assets/onix.png" alt="ONIX">
+                </label>
+                    <input type="radio" name="mascota" id="ONIX"/>
+
+            </div>
+            
+
+
+            <button id="boton-mascota">seleccionar</button>
+        </section>
+
+        <section id="seleccionar-ataque">
+            <h2>Elige tu ataque</h2>
+
+            <p>Tu mascota <span id="mascota-jugador"></span>tiene <span id="vidas-jugador">3</span> vidas</p>
+            <p>la mascota <span id="mascota-enemigo"></span> del enemigo tiene <span id = "vidas-enemigos">3</span> vidas </p>
+
+            <p>
+                <button id="boton-Fuego"> Fuego 🔥</button>
+                <button id="boton-Agua"> Agua 💧</button>
+                <button id="boton-Aire"> Aire 🌪</button>
+                <button id="boton-Tierra"> Tierra 🍀</button>
+         
+            </p>
+ 
+        </section  >   
+
+        <section id="mensajes"> 
+            
+        </section>
+        <section id="reiniciar"></section>
+            <button id="boton-Reiniciar">reiniciar</button>
+        </section>
+
+           
+    </body>
+
+</html>
